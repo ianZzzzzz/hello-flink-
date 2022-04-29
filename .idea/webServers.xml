@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="ffad63ba-0365-462f-965c-f0c76d9c15da" name="flink-ali">
+        <fileTransfer accessType="SFTP" host="8.218.110.87" port="22" sshConfigId="2c94c6fe-98ef-48e1-b72c-8bb6867f9281" sshConfig="root@8.218.110.87:22 key" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
