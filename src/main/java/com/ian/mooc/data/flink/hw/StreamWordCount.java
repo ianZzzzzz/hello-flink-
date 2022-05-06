@@ -22,6 +22,7 @@ public class StreamWordCount {
                         out.collect(Tuple2.of(word, 1L));
                     }
                 }
+
         ).returns(Types.TUPLE(Types.STRING,Types.LONG));
 
         SingleOutputStreamOperator<Tuple2<String, Long>> result = operator.keyBy(data -> data.f0).sum(1);

@@ -1,4 +1,4 @@
-package com.ian.mooc.data.flink;
+package com.ian.mooc.data.flink.pojo;
 
 public class Course {
     public String id;

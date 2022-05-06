@@ -1,4 +1,4 @@
-package com.ian.mooc.data.flink;
+package com.ian.mooc.data.flink.source;
 
 import org.apache.flink.api.java.utils.ParameterTool;
 import org.apache.flink.streaming.api.datastream.DataStreamSource;

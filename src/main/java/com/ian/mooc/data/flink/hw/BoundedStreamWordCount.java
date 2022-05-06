@@ -23,7 +23,7 @@ public class BoundedStreamWordCount {
         ).returns(Types.TUPLE(Types.STRING, Types.LONG));
         KeyedStream<Tuple2<String, Long>, String> tuple2StringKeyedStream = mapResult.keyBy(data -> data.f0);
         SingleOutputStreamOperator<Tuple2<String, Long>> sum = tuple2StringKeyedStream.sum(1);
-        //sum.print();
+        sum.print();
         env.execute();
     }
 }
