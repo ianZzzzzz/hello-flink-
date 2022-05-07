@@ -1,4 +1,4 @@
-package com.ian.mooc.data.flink.hw;
+package com.ian.mooc.data.flink.helloworld;
 
 import org.apache.flink.api.common.typeinfo.Types;
 import org.apache.flink.api.java.ExecutionEnvironment;

@@ -11,11 +11,11 @@ import java.util.Objects;
 
 public class Event {
 
-    public String actionType;
-    public int user;
-    public String course;
-    public String session;
-    public LocalDateTime dateTime ;
+    private String actionType;
+    private int user;
+    private String course;
+    private String session;
+    private LocalDateTime dateTime ;
 
 
     public Event(String str){
@@ -42,9 +42,18 @@ public class Event {
     public String getActionType() {
         return actionType;
     }
+    public LocalDateTime getDateTime(){return dateTime;}
     public Long getTimestamp(){
 
         return dateTime.toInstant(ZoneOffset.of("+8")).toEpochMilli();
+    }
+
+    public String getCourse() {
+        return course;
+    }
+
+    public String getSession() {
+        return session;
     }
 
     @Override

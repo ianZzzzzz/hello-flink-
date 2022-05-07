@@ -16,7 +16,7 @@
  * limitations under the License.
  */
 
-package com.ian.mooc.data.flink.hw;
+package com.ian.mooc.data.flink.helloworld;
 
 import org.apache.flink.api.java.ExecutionEnvironment;
 import org.apache.flink.streaming.api.datastream.DataStream;
